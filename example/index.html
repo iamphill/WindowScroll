@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+    <div style="height:2000px;"></div>
+
+    <script src="../dist/jquery.windowscroll.js"></script>
+    <script>
+    if (document.addEventListener) {
+        document.addEventListener("wscroll", function (e) {
+            console.log(e.scrolltop);
+        }, true);
+    } else {
+        document.attachEvent("wscroll", function (e) {
+            console.log(e.scrolltop);
+        });
+    }
+    </script>
+</body>
+</html>
