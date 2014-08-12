@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         coffee: {
             compile: {
                 files: {
-                    "dist/jquery.windowscroll.js": "src/jquery.windowscroll.coffee"
+                    "dist/windowscroll.js": "src/windowscroll.coffee"
                 }
             }
         },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
                     banner: "/*\n" + grunt.file.read("LICENSE") + "*/\n"
                 },
                 files: {
-                    "dist/jquery.windowscroll.min.js": ["dist/jquery.windowscroll.js"]
+                    "dist/windowscroll.min.js": ["dist/windowscroll.js"]
                 }
             }
         }

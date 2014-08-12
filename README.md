@@ -15,7 +15,7 @@ It has also dropped the dependency on jQuery so that this can be used with vanil
 Add plugin file to the page
 
 ```html```
-<script src="dist/jquery.windowscroll.min.js"></script>
+<script src="dist/windowscroll.min.js"></script>
 ```
 
 Listen for the event. All done!
